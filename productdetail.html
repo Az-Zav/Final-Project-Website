@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | AeroKicks PH</title>
+    <link rel="icon" type="image/x-icon" href="Images/LOGO.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">     
+       
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container container">
+            <div class="logo">
+                <img src="Images/LOGO+NAME.png">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="product.html">Shop <i class="fas fa-chevron-down" style="font-size: 0.7em;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="product.html">Footwear</a>
+                        <a href="product.html">Apparel</a>
+                        <a href="product.html">Accessories</a>
+                        <a href="product.html">Bags</a>
+                    </div>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="login.html"><i class="fa-regular fa-circle-user"></i></a>
+                <a href="cart.html" class="cart-icon-wrapper">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-counter">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- PRODUCT DETAIL CONTENT -->
+    <main class="product-detail-page">
+        <div class="container section-padding">
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="product.html">Shop</a> / 
+                <span id="breadcrumb-product">Product</span>
+            </div>
+
+            <!-- Product Detail Container -->
+            <div class="product-detail-container">
+                <!-- LEFT SIDE - IMAGES -->
+                <div class="product-images">
+                    <div class="main-image">
+                        <img id="mainImage" src="" alt="Product Image">
+                    </div>
+                    <div class="thumbnail-list">
+                        <!-- Thumbnails will be dynamically inserted here -->
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDE - PRODUCT INFO -->
+                <div class="product-info-detail">
+                    <h1 class="product-title" id="productTitle">Product Name</h1>
+                    <div class="product-price-large" id="productPrice">₱0.00</div>
+                    <p class="product-short-desc" id="productShortDesc"></p>
+
+                    <!-- Variant Selection (Color) -->
+                    <div class="variant-selection" id="variantSelection">
+                        <label>Color Options:</label>
+                        <div class="color-options">
+                            <!-- Color buttons will be dynamically inserted -->
+                        </div>
+                    </div>
+
+                    <!-- Size Selection -->
+                    <div class="size-selection">
+                        <label>Select Size:</label>
+                        <div class="size-options">
+                            <!-- Size buttons will be dynamically inserted -->
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="action-buttons">
+                        <button class="btn-add-to-cart-detail" id="addToCartBtn">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                        <button class="btn-buy-now" id="buyNowBtn">
+                            <i class="fas fa-bolt"></i> Buy Now
+                        </button>
+                    </div>
+
+                    <!-- Product Description -->
+                    <div class="product-description-section">
+                        <h3>Product Description</h3>
+                        <p id="productDescription"></p>
+                    </div>
+
+                    <!-- Key Features -->
+                    <div class="product-features-section">
+                        <h3>Key Features</h3>
+                        <ul id="productFeatures"></ul>
+                    </div>
+
+                    <!-- Materials -->
+                    <div class="product-materials-section">
+                        <h3>Materials</h3>
+                        <ul id="productMaterials"></ul>
+                    </div>
+
+                    <!-- Ideal For -->
+                    <div class="product-ideal-section">
+                        <h3>Ideal For</h3>
+                        <ul id="productIdeal"></ul>
+                    </div>
+
+                    <!-- Sizing & Fit (Optional - only for footwear) -->
+                    <div class="product-sizing-section" id="sizingSection" style="display:none;">
+                        <h3>Sizing & Fit</h3>
+                        <ul id="productSizing"></ul>
+                    </div>
+
+                    <!-- Care Instructions -->
+                    <div class="product-care-section">
+                        <h3>Care Instructions</h3>
+                        <ul id="productCare"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>AeroKicks PH</h4>
+                <p>Born Local. Made for Legends.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Shop</a></li>
+                    <li><a href="sizing.html">Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Support</h4>
+                <ul>
+                    <li><a href="FAQ.html">FAQs</a></li>
+                    <li><a href="Shipping.html">Shipping Policy</a></li>
+                    <li><a href="returns.html">Returns & Exchanges</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="Terms.html">Terms & Conditions</a></li>
+                    <li><a href="Privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Address: <a href="https://maps.app.goo.gl/noQskWofd6mfiit98">Gateway Cubao<br>
+Unit 210, Gateway Mall
+Araneta Center, Cubao, Quezon City
+Metro Manila, 1109, Philippines</a></p>
+                <p>Email: support@aerokicksph.com</p>
+                <p>Phone: +63 (555) 123-4567</p>
+                <p>Mon - Fri: 9AM - 5PM PST</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 AeroKicks PH. All Rights Reserved. | Designed by Condicion, Frasco, Galang, Nemiaga, Santos.
+        </div>
+    </div>
+</footer>
+
+    <script src="products.js"></script>
+    <script src="Tempscript.js"></script>
+</body>
+</html>

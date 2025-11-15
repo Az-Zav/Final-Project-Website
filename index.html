@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroKicks PH</title>
+    <link rel="icon" type="image/x-icon" href="Images/LOGO.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">     
+       
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container container">
+            <div class="logo">
+                <img src="Images/LOGO+NAME.png">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="product.html">Shop <i class="fas fa-chevron-down" style="font-size: 0.7em;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="product.html">Footwear</a>
+                        <a href="product.html">Apparel</a>
+                        <a href="product.html">Accessories</a>
+                        <a href="product.html">Bags</a>
+                    </div>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="login.html"><i class="fa-regular fa-circle-user"></i></a>
+                <a href="cart.html" class="cart-icon-wrapper">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-counter">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="video-background">
+                <video id="heroVideo" autoplay loop playsinline poster="Images/VideoFallbackPoster.jpg">
+                    <source src="Images/HeroVid.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="hero-content">
+                <h1>Fuel Your Game. Wear Your Passion.</h1>
+                <p>Premium Filipino sportswear engineered for champions.</p>
+                <a href="#products" class="btn-primary">Shop Now</a>                
+            </div>
+            <button id="muteToggle" class="btn-audio-toggle">
+                    <i class="fas fa-volume-mute"></i> 
+            </button>
+        </section>
+
+        <section id="categories" class="featured-categories section-padding">
+            <div class="container">
+                <h2 class="section-title">Explore The <span class="text-gold">Collections</span></h2>
+                <div class="category-grid">
+                    <a href="product.html" data-category="Footwear" class="category-card" style="background-image: url('Images/FootWear.jpg')">
+                        <div class="category-info"><h3>Footwear</h3></div>
+                    </a>
+                    <a href="product.html" class="category-card" style="background-image: url('Images/ActiveWear.jpeg')">
+                        <div class="category-info"><h3>Activewear</h3></div>
+                    </a>
+                    <a href="product.html" class="category-card" style="background-image: url('Images/Essentials.jpg')">
+                        <div class="category-info"><h3>Essentials</h3></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="promotions" class="promotions">
+            <div class="container">
+                <h2>Limited <span class="text-gold">Drop</span> Sale</h2>
+                <p>Unlock premium gear with <b>20% off</b> our Core Collection for a limited time. Don't miss out on this exclusive offer.</p>
+                <a href="#" class="btn-primary">View Sale Items</a>
+            </div>
+        </section>
+
+        <section id="products" class="featured-products section-padding">
+            <div class="container">
+                <h2 class="section-title">AeroKicks PH <span class="text-gold">Best Sellers</span></h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="Images/AEROKICKS_Dominion_Pro_2.jpg" alt="AeroKicks Dominion Pro">
+                        <div class="product-name">AeroKicks Dominion Pro</div>
+                        <div class="product-price">₱5,895.00</div>
+                        <a href="product.html" class="btn-primary">Shop Now</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="Images/AEROKicksVelocity_Blue_3.webp" alt="AeroKicks Velocity">
+                        <div class="product-name">AeroKicks Velocity X1</div>
+                        <div class="product-price">₱5,495.00</div>
+                        <a href="product.html" class="btn-primary">Shop Now</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="Images/Aeroshirt31.webp" alt="AeroKicks Essential Tee">
+                        <div class="product-name">AeroKicks Essential Tee</div>
+                        <div class="product-price">₱995.00</div>
+                        <a href="product.html" class="btn-primary">Shop Now</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="Images/AeroShirt21.webp" alt="Aerokicks Stadium Polo">
+                        <div class="product-name">AeroKicks Stadium Polo</div>
+                        <div class="product-price">₱1,950.00</div>
+                        <a href="product.html" class="btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="brand-story" class="brand-story section-padding container">
+            <div class="story-content">
+                <h2 class="text-gold">Crafted For The Driven</h2>
+                <p>AeroKicks PH blends precision, performance, and modern minimalism. <br>Designed for athletes and everyday movers, our gear is engineered to enhance speed, endurance, and confidence. Built with durable materials and refined silhouettes, we empower you to move with purpose—every step, every stride.</p>
+                <a href="about.html" class="btn-primary">Our Full Story</a>
+            </div>
+            <div class="story-image">
+
+                </div>
+        </section>
+        
+        <section id="testimonials" class="testimonials section-padding">
+            <div class="container">
+                <h2 class="section-title">What Our <span class="text-gold">Clients Say</span></h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p>"AeroKicks PH truly surprised me. The designs are clean, modern, and premium—on par with international brands, but proudly Filipino. The comfort and minimal aesthetic fit perfectly with my everyday training."</p>
+                        <h4>— Alex K. / <span class="text-gold">Athlete</span></h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"I love supporting local brands, but AeroKicks PH exceeds expectations. The materials feel durable and high-end, and the fit is incredibly flattering. It’s minimalist, functional, and built for real movement. Definitely my new go-to sportswear."</p>
+                        <h4>— Jamie L. / <span class="text-gold">Designer</span></h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"The quality is impressive—lightweight, supportive, and stylish without trying too hard. AeroKicks PH proves that local products can be both premium and performance-driven. Every piece feels intentional and well-crafted."</p>
+                        <h4>— Chris R. / <span class="text-gold">Professional</span></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter section-padding">
+            <div class="container">
+                <h2>Join The <span class="text-gold">Inner Circle</span></h2>
+                <p>Be the first to know about new drops, exclusive offers, and behind-the-scenes content.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>AeroKicks PH</h4>
+                <p>Born Local. Made for Legends.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Shop</a></li>
+                    <li><a href="sizing.html">Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Support</h4>
+                <ul>
+                    <li><a href="FAQ.html">FAQs</a></li>
+                    <li><a href="Shipping.html">Shipping Policy</a></li>
+                    <li><a href="returns.html">Returns & Exchanges</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="Terms.html">Terms & Conditions</a></li>
+                    <li><a href="Privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Address: <a href="https://maps.app.goo.gl/noQskWofd6mfiit98">Gateway Cubao<br>
+Unit 210, Gateway Mall
+Araneta Center, Cubao, Quezon City
+Metro Manila, 1109, Philippines</a></p>
+                <p>Email: support@aerokicksph.com</p>
+                <p>Phone: +63 (555) 123-4567</p>
+                <p>Mon - Fri: 9AM - 5PM PST</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 AeroKicks PH. All Rights Reserved. | Designed by Condicion, Frasco, Galang, Nemiaga, Santos.
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

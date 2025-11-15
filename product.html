@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | AeroKicks PH</title>
+    <link rel="icon" type="image/x-icon" href="Images/LOGO.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">     
+       
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container container">
+            <div class="logo">
+                <img src="Images/LOGO+NAME.png">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="product.html">Shop <i class="fas fa-chevron-down" style="font-size: 0.7em;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="product.html">Footwear</a>
+                        <a href="product.html">Apparel</a>
+                        <a href="product.html">Accessories</a>
+                        <a href="product.html">Bags</a>
+                    </div>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="login.html"><i class="fa-regular fa-circle-user"></i></a>
+                <a href="cart.html" class="cart-icon-wrapper">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-counter">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section class="product-collection section-padding">
+            <div class="container">
+                <h1 class="section-title">The <span class="text-gold">AEROKicks</span> Collection</h1>
+                
+                <!-- SEARCH BAR -->
+                <div class="search-container">
+                    <input 
+                        type="text" 
+                        class="search-input" 
+                        placeholder="Search products by name, category, or description..."
+                        aria-label="Search products"
+                    >
+                    <button class="search-btn" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                
+                <!-- FILTER BAR -->
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-category="All">All Products</button>
+                    <button class="filter-btn" data-category="Footwear">Footwear</button>
+                    <button class="filter-btn" data-category="Apparel">Apparel</button>
+                    <button class="filter-btn" data-category="Essentials">Essentials</button>
+                </div>
+                
+                <!-- PRODUCT GRID -->
+                <div class="product-list product-grid">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+  <footer id="footer" class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>AeroKicks PH</h4>
+                <p>Born Local. Made for Legends.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Shop</a></li>
+                    <li><a href="sizing.html">Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Support</h4>
+                <ul>
+                    <li><a href="FAQ.html">FAQs</a></li>
+                    <li><a href="Shipping.html">Shipping Policy</a></li>
+                    <li><a href="returns.html">Returns & Exchanges</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="Terms.html">Terms & Conditions</a></li>
+                    <li><a href="Privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Address: <a href="https://maps.app.goo.gl/noQskWofd6mfiit98">Gateway Cubao<br>
+Unit 210, Gateway Mall
+Araneta Center, Cubao, Quezon City
+Metro Manila, 1109, Philippines</a></p>
+                <p>Email: support@aerokicksph.com</p>
+                <p>Phone: +63 (555) 123-4567</p>
+                <p>Mon - Fri: 9AM - 5PM PST</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 AeroKicks PH. All Rights Reserved. | Designed by Condicion, Frasco, Galang, Nemiaga, Santos.
+        </div>
+    </div>
+</footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
