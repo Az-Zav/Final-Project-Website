@@ -66,11 +66,11 @@ const products = [
         variants: [
             {
                 name: "Jet Black",
-                mainImage: "Images/AEROKICKS_RetroRun_82_1.jpg",
+                mainImage: "Images/AEROSprintAlpha_black_1.webp",
                 thumbnails: [
-                    "Images/AEROSprintAlpha_black_1.webp",
                     "Images/AEROSprintAlpha_black_2.webp",
-                    "Images/AEROSprintAlpha_black_3.webp"
+                    "Images/AEROSprintAlpha_black_3.webp",
+                    "Images/AEROSprintAlpha_black_4.webp"
                 ],
                 sizes: ["6", "7", "8", "9", "10", "11", "12"]
             },
@@ -78,9 +78,9 @@ const products = [
                 name: "White",
                 mainImage: "Images/AEROKICKSRetroRun_1.jpg",
                 thumbnails: [
-                    "Images/AEROSprintAlpha_white_1.webp",
                     "Images/AEROSprintAlpha_white_2.webp",
-                    "Images/AEROSprintAlpha_white_3.webp"
+                    "Images/AEROSprintAlpha_white_3.webp",
+                    "Images/AEROSprintAlpha_white_4.webp"
                 ],
                 sizes: ["6", "7", "8", "9", "10", "11", "12"]
             }
@@ -714,3 +714,4 @@ const products = [
 ];
 
 console.log('products.js loaded with', products.length, 'products');
+
