@@ -637,7 +637,7 @@ const products = [
                 thumbnails: [
                     "Images/Aerokicks_Stride_Jacket2.png",
                     "Images/Aerokicks_Stride_Jacket3.png",
-                    "Images/Aerokicks_Stride_Jacket3.png",
+                    "Images/Aerokicks_Stride_Jacket.png",
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -671,7 +671,7 @@ const products = [
                 thumbnails: [
                     "Images/Aerokicks_Air_Jacket2.png",
                     "Images/Aerokicks_Air_Jacket3.png",
-                    "Images/Aerokicks_Air_Jacket3.png"
+                    "Images/Aerokicks_Air_Jacket.png"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -701,11 +701,11 @@ const products = [
         variants: [
             {
                 name: "Jordan Brooklyn Jacket",
-                mainImage: "Images/Aerokicks _Jordan_Brooklyn_Jacket.png",
+                mainImage: "Images/Aerokicks_Jordan_Brooklyn_Jacket.png",
                 thumbnails: [
-                    "Images/Aerokicks _Jordan_Brooklyn_Jacket2.png",
-                    "Images/Aerokicks _Jordan_Brooklyn_Jacket3.png",
-                    "Images/Aerokicks _Jordan_Brooklyn_Jacket3.png"
+                    "Images/Aerokicks_Jordan_Brooklyn_Jacket2.png",
+                    "Images/Aerokicks_Jordan_Brooklyn_Jacket3.png",
+                    "Images/Aerokicks_Jordan_Brooklyn_Jacket.png"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -714,5 +714,6 @@ const products = [
 ];
 
 console.log('products.js loaded with', products.length, 'products');
+
 
 
