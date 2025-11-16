@@ -110,12 +110,12 @@ const products = [
         careInstructions: ["Machine wash cold", "Tumble dry low", "Do not iron print", "Do not bleach"],
         variants: [
             {
-                name: "Earth Tone",
-                mainImage: "Images/AeroShirt31.webp",
+                name: "Black",
+                mainImage: "Images/Aeroshirt31.webp",
                 thumbnails: [
-                    "Images/AeroShirt32.webp",
-                    "Images/AeroShirt33.webp",
-                    "Images/AeroShirt31.webp"
+                    "Images/Aeroshirt32.webp",
+                    "Images/Aeroshirt33.webp",
+                    "Images/Aeroshirt31.webp"
                 ],
                 sizes: ["S", "M", "L", "XL", "2XL"]
             }
@@ -179,7 +179,7 @@ const products = [
         careInstructions: ["Wipe clean with damp cloth", "Air dry", "​Apply leather conditioner periodically to maintain suppleness"],
         variants: [
             {
-                name: "Red/White",
+                name: "AeroKicks Legacy Low",
                 mainImage: "Images/AEROKICKS_Legacy_Low_1.jpg",
                 thumbnails: [
                     "Images/AEROKICKS_Legacy_Low_1.jpg",
@@ -219,12 +219,12 @@ const products = [
         careInstructions: ["Wipe clean with damp cloth", "Use mild soap for stubborn stains", "Air dry in a shaded area — do not bleach or machine dry"],
         variants: [
             {
-                name: "Emerald Green",
+                name: "AeroKicks RetroRun",
                 mainImage: "Images/AEROKICKS_RetroRun_82_1.jpg",
                 thumbnails: [
-                    "Images/AEROKICKS_RetroRun_82_1.jpg",
-                    "Images/AEROKICKS_RetroRun_82_2jpg",
-                    "Images/AEROKICKS_RetroRun_82_3.jpg"
+                    "Images/AEROKICKS_RetroRun_82_2.jpg",
+                    "Images/AEROKICKS_RetroRun_82_3.jpg",
+                    "Images/AEROKICKS_RetroRun_82_4.jpg"
                 ],
                 sizes: ["6", "7", "8", "9", "10", "11", "12"]
             }
@@ -258,9 +258,9 @@ const products = [
                 name: "Blue Surge",
                 mainImage: "Images/AEROKicksVelocity_Blue_1.webp",
                 thumbnails: [
-                    "Images/AEROKicksVelocity_Blue_1.webp",
                     "Images/AEROKicksVelocity_Blue_2.webp",
-                    "Images/AEROKicksVelocity_Blue_3.webp"
+                    "Images/AEROKicksVelocity_Blue_3.webp",
+                    "Images/AEROKicksVelocity_Blue_4.webp"
                 ],
                 sizes: ["6", "7", "8", "9", "10", "11", "12"]
             }
@@ -290,11 +290,11 @@ const products = [
         variants: [
             {
                 name: "Mesh Short Blue Ice",
-                mainImage: "Images/Mesh_Short_Blue_Ice_1.jpg",
+                mainImage: "Images/Mesh_Short_Blue_Ice_1.jpeg",
                 thumbnails: [
-                    "Images/Mesh_Short_Blue_Ice_1.jpg",
-                    "Images/Mesh_Short_Blue_Ice_2.jpg",
-                    "Images/Mesh_Short_Blue_Ice_2.jpg"
+                    "Images/Mesh_Short_Blue_Ice_1.jpeg",
+                    "Images/Mesh_Short_Blue_Ice_2.jpeg",
+                    "Images/Mesh_Short_Blue_Ice_2.jpeg"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -307,7 +307,7 @@ const products = [
         priceValue: 3500,
         category: "Apparel",
         shortDescription: "The reliable, breathable mesh short engineered for high-intensity training, court sports, and essential everyday comfort without distraction.",
-        description: "Step into iconic style",
+        description: "Step into iconic styl",
 
         features: [
             "​Heritage Leather Upper – Premium, supple leather provides a durable and refined finish, designed to maintain its structure and look over time.",
@@ -326,11 +326,11 @@ const products = [
         variants: [
             {
                 name: "Mesh Short Love",
-                mainImage: "Images/Mesh_Short_Love_1.jpg",
+                mainImage: "Images/Mesh_Short_Love_1.jpeg",
                 thumbnails: [
-                    "Images/Mesh_Short_Love_1.jpg",
-                    "Images/Mesh_Short_Love_2.jpg",
-                    "Images/Mesh_Short_Love_2.jpg"
+                    "Images/Mesh_Short_Love_1.jpeg",
+                    "Images/Mesh_Short_Love_2.jpeg",
+                    "Images/Mesh_Short_Love_2.jpeg"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -360,11 +360,11 @@ const products = [
         variants: [
             {
                 name: "Mesh Short Shark",
-                mainImage: "Images/Mesh_Short_Shark_1.jpg",
+                mainImage: "Images/Mesh_Short_Shark_1.jpeg",
                 thumbnails: [
-                    "Images/Mesh_Short_Shark_1.jpg",
-                    "Images/Mesh_Short_Shark_2.jpg",
-                    "Images/Mesh_Short_Shark_3.jpg"
+                    "Images/Mesh_Short_Shark_2.jpeg",
+                    "Images/Mesh_Short_Shark_3.jpeg",
+                    "Images/Mesh_Short_Shark_4.jpeg"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -462,12 +462,12 @@ const products = [
         careInstructions: ["Machine wash cold, inside out, on a gentle cycle.", "Do not use fabric softeners or bleach (they compromise the wicking ability).", "Tumble dry low or hang dry immediately."],
         variants: [
             {
-                name: "Navy Blue",
-                mainImage: "Images/AeroShirt21.webp",
+                name: "AeroShirt Stadium Polo",
+                mainImage: "Images/AeroShirt31.webp",
                 thumbnails: [
-                    "Images/AeroShirt22.webp",
-                    "Images/AeroShirt23.webp",
-                    "Images/AeroShirt21.webp"
+                    "Images/AeroShirt31.webp",
+                    "Images/AeroShirt32.webp",
+                    "Images/AeroShirt33.webp"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -497,11 +497,11 @@ const products = [
         variants: [
             {
                 name: "AeroShirt Striped Tee",
-                mainImage: "Images/AeroShirt11.webp",
+                mainImage: "Images/AeroShirt21.webp",
                 thumbnails: [
-                    "Images/AeroShirt12.webp",
-                    "Images/AeroShirt13.webp",
-                    "Images/AeroShirt11.webp"
+                    "Images/AeroShirt21.webp",
+                    "Images/AeroShirt22.webp",
+                    "Images/AeroShirt23.webp"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -614,7 +614,7 @@ const products = [
         title: "AeroKicks Stride Jacket", 
         price: "₱2,999.00",
         priceValue: 2999,
-        category: "Essentials",
+        category: "Apparel",
         shortDescription: "The essential, ultra-lightweight jacket engineered to provide maximum wind and weather protection for outdoor training without restricting movement.",
         description: "Engineered to complement your fastest stride, the AeroKicks Stride Jacket is the essential lightweight layer for all your outdoor training. It delivers crucial protection from the elements without ever compromising your freedom of movement.",
 
@@ -648,7 +648,7 @@ const products = [
         title: "AeroKicks Air Jacket", 
         price: "₱4,995.00",
         priceValue: 4995,
-        category: "Essentials",
+        category: "Apparel",
         shortDescription: "Our most technologically advanced, featherweight layer engineered for supreme protection and unparalleled comfort during high-intensity performance.",
         description: "Introducing the AeroKicks Air Jacket, our most technologically advanced garment built to shatter the barrier between performance and comfort. We engineered this jacket to be so light, you'll forget you're wearing it, yet so protective, you'll never train without it.",
 
@@ -714,5 +714,3 @@ const products = [
 ];
 
 console.log('products.js loaded with', products.length, 'products');
-
-
