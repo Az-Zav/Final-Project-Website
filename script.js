@@ -831,7 +831,7 @@ function closeCheckoutForm() {
 function closeCheckoutFormAndRedirect() {
     closeCheckoutForm();
     setTimeout(() => {
-        window.location.href = 'tempindex.html';
+        window.location.href = 'index.html';
     }, 300);
 }
 
