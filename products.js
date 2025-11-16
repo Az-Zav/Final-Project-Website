@@ -150,7 +150,7 @@ const products = [
                     "Images/AerokicksProWarmMensLongSleeveTopBlackWarmer3.png",
                     "Images/AerokicksProWarmMensLongSleeveTopBlackWarmer.png"
                 ],
-                sizes: ["6", "7", "8", "9", "10", "11", "12"]
+                sizes: ["S", "M", "L", "XL", "2XL"]
             }
         ]
     },
@@ -714,6 +714,7 @@ const products = [
 ];
 
 console.log('products.js loaded with', products.length, 'products');
+
 
 
 
