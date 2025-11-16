@@ -567,9 +567,9 @@ const products = [
                 name: "White",
                 mainImage: "Images/White_NBA_1.jpg",
                 thumbnails: [
+                    "Images/White_NBA_2.webp",
                     "Images/White_NBA_1.jpg",
-                    "Images/White_NBA_2.jpg",
-                    "Images/White_NBA_1.jpg"
+                    "Images/White_NBA_2.webp"
                 ],
                 sizes: ["One Size"]
             }
@@ -714,4 +714,5 @@ const products = [
 ];
 
 console.log('products.js loaded with', products.length, 'products');
+
 
