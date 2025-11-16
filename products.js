@@ -463,11 +463,11 @@ const products = [
         variants: [
             {
                 name: "AeroShirt Stadium Polo",
-                mainImage: "Images/AeroShirt31.webp",
+                mainImage: "Images/AeroShirt21.webp",
                 thumbnails: [
-                    "Images/AeroShirt31.webp",
-                    "Images/AeroShirt32.webp",
-                    "Images/AeroShirt33.webp"
+                    "Images/AeroShirt21.webp",
+                    "Images/AeroShirt22.webp",
+                    "Images/AeroShirt23.webp"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -497,11 +497,11 @@ const products = [
         variants: [
             {
                 name: "AeroShirt Striped Tee",
-                mainImage: "Images/AeroShirt21.webp",
+                mainImage: "Images/AeroShirt11.webp",
                 thumbnails: [
-                    "Images/AeroShirt21.webp",
-                    "Images/AeroShirt22.webp",
-                    "Images/AeroShirt23.webp"
+                    "Images/AeroShirt11.webp",
+                    "Images/AeroShirt12.webp",
+                    "Images/AeroShirt13.webp"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
