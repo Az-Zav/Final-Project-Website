@@ -396,9 +396,9 @@ const products = [
                 name: "Black",
                 mainImage: "Images/Black_Jordan_1.jpg",
                 thumbnails: [
-                    "Images/Black_Jordan_1.jpg",
-                    "Images/Black_Jordan_2.jpg",
-                    "Images/Black_Jordan_3.jpg"
+                    "Images/Black_Jordan_2.jpeg",
+                    "Images/Black_Jordan_3.jpg",
+                    "Images/Black_Jordan_1.jpg"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -714,6 +714,7 @@ const products = [
 ];
 
 console.log('products.js loaded with', products.length, 'products');
+
 
 
 
