@@ -76,7 +76,7 @@ const products = [
             },
             {
                 name: "White",
-                mainImage: "Images/AEROKICKSRetroRun_1.jpg",
+                mainImage: "Images/AEROSprintAlpha_white_1.webp",
                 thumbnails: [
                     "Images/AEROSprintAlpha_white_2.webp",
                     "Images/AEROSprintAlpha_white_3.webp",
@@ -110,12 +110,12 @@ const products = [
         careInstructions: ["Machine wash cold", "Tumble dry low", "Do not iron print", "Do not bleach"],
         variants: [
             {
-                name: "Black",
-                mainImage: "Images/Aeroshirt31.webp",
+                name: "Earth Tone",
+                mainImage: "Images/AeroShirt31.webp",
                 thumbnails: [
-                    "Images/Aeroshirt32.webp",
-                    "Images/Aeroshirt33.webp",
-                    "Images/Aeroshirt34.webp"
+                    "Images/AeroShirt32.webp",
+                    "Images/AeroShirt33.webp",
+                    "Images/AeroShirt31.webp"
                 ],
                 sizes: ["S", "M", "L", "XL", "2XL"]
             }
@@ -179,7 +179,7 @@ const products = [
         careInstructions: ["Wipe clean with damp cloth", "Air dry", "​Apply leather conditioner periodically to maintain suppleness"],
         variants: [
             {
-                name: "AeroKicks Legacy Low",
+                name: "Red/White",
                 mainImage: "Images/AEROKICKS_Legacy_Low_1.jpg",
                 thumbnails: [
                     "Images/AEROKICKS_Legacy_Low_1.jpg",
@@ -193,7 +193,7 @@ const products = [
     ,
     {
         id: 6,
-        title: "AeroKicks RetroRun 1",
+        title: "AeroKicks RetroRun",
         price: "₱3,295.00",
         priceValue: 3295,
         category: "Footwear",
@@ -219,7 +219,7 @@ const products = [
         careInstructions: ["Wipe clean with damp cloth", "Use mild soap for stubborn stains", "Air dry in a shaded area — do not bleach or machine dry"],
         variants: [
             {
-                name: "AeroKicks RetroRun 1",
+                name: "Emerald Green",
                 mainImage: "Images/AEROKICKS_RetroRun_82_1.jpg",
                 thumbnails: [
                     "Images/AEROKICKS_RetroRun_82_1.jpg",
@@ -232,7 +232,7 @@ const products = [
     },
     {
         id: 7,
-        title: "AEROKicksVelocity Blue 1", 
+        title: "AEROKicks Velocity X1", 
         price: "₱5,495.00",
         priceValue: 5495,
         category: "Footwear",
@@ -255,7 +255,7 @@ const products = [
         careInstructions: ["Spot clean with mild soap and warm water", "Air dry only—do not machine wash"],
         variants: [
             {
-                name: "Blue",
+                name: "Blue Surge",
                 mainImage: "Images/AEROKicksVelocity_Blue_1.webp",
                 thumbnails: [
                     "Images/AEROKicksVelocity_Blue_1.webp",
@@ -307,7 +307,7 @@ const products = [
         priceValue: 3500,
         category: "Apparel",
         shortDescription: "The reliable, breathable mesh short engineered for high-intensity training, court sports, and essential everyday comfort without distraction.",
-        description: "Step into iconic styl",
+        description: "Step into iconic style",
 
         features: [
             "​Heritage Leather Upper – Premium, supple leather provides a durable and refined finish, designed to maintain its structure and look over time.",
@@ -462,12 +462,12 @@ const products = [
         careInstructions: ["Machine wash cold, inside out, on a gentle cycle.", "Do not use fabric softeners or bleach (they compromise the wicking ability).", "Tumble dry low or hang dry immediately."],
         variants: [
             {
-                name: "AeroShirt Stadium Polo",
-                mainImage: "Images/AeroShirt31.webp",
+                name: "Navy Blue",
+                mainImage: "Images/AeroShirt21.webp",
                 thumbnails: [
-                    "Images/AeroShirt31.webp",
-                    "Images/AeroShirt32.webp",
-                    "Images/AeroShirt33.webp"
+                    "Images/AeroShirt22.webp",
+                    "Images/AeroShirt23.webp",
+                    "Images/AeroShirt21.webp"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -497,11 +497,11 @@ const products = [
         variants: [
             {
                 name: "AeroShirt Striped Tee",
-                mainImage: "Images/AeroShirt21.webp",
+                mainImage: "Images/AeroShirt11.webp",
                 thumbnails: [
-                    "Images/AeroShirt21.webp",
-                    "Images/AeroShirt22.webp",
-                    "Images/AeroShirt23.webp"
+                    "Images/AeroShirt12.webp",
+                    "Images/AeroShirt13.webp",
+                    "Images/AeroShirt11.webp"
                 ],
                 sizes: ["XS", "S", "M", "L", "XL", "XXL"]
             }
@@ -714,4 +714,5 @@ const products = [
 ];
 
 console.log('products.js loaded with', products.length, 'products');
+
 
