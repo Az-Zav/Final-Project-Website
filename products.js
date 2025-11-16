@@ -111,11 +111,11 @@ const products = [
         variants: [
             {
                 name: "Black",
-                mainImage: "Images/Aeroshirt31.webp",
+                mainImage: "Images/AeroShirt31.webp",
                 thumbnails: [
-                    "Images/Aeroshirt32.webp",
-                    "Images/Aeroshirt33.webp",
-                    "Images/Aeroshirt31.webp"
+                    "Images/AeroShirt32.webp",
+                    "Images/AeroShirt33.webp",
+                    "Images/AeroShirt31.webp"
                 ],
                 sizes: ["S", "M", "L", "XL", "2XL"]
             }
@@ -714,3 +714,4 @@ const products = [
 ];
 
 console.log('products.js loaded with', products.length, 'products');
+
