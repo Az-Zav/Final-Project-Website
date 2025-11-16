@@ -1,172 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FAQ / Help Center - AEROKicks PH</title>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs - AeroKicks PH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-  <!-- Navbar -->
-  <div class="navbar">
-    <div class="container">
-      <div class="logo">
-        <a href="index.html"><img src="Images/LOGO+NAME.png" alt="Aerokicks PH Logo" /></a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="product.html">PRODUCTS</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contactus.html">CONTACT US</a></li>
-          <li><i class="fa-solid fa-magnifying-glass"></i></li>
-          <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-
-  <!-- Page Hero -->
-  <div class="faq-hero">
-    <h1>FAQ / Help Center</h1>
-    <p>Find answers to common questions about AEROKicks PH products, shipping, and services.</p>
-  </div>
-
-  <!-- FAQ Section -->
-  <div class="faq-section">
-    <div class="small-container">
-      <h2 class="title">Frequently Asked Questions</h2>
-
-      <div class="faq">
-        <div class="question">
-          <h4>1. How can I place an order?</h4>
-          <i class="fa-solid fa-chevron-down"></i>
+    <header class="header">
+        <div class="nav-container container">
+            <div class="logo">
+                <img src="Images/LOGO+NAME.png" alt="AeroKicks PH Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="tempindex.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="product.html">Shop <i class="fas fa-chevron-down" style="font-size: 0.7em;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="product.html">Footwear</a>
+                        <a href="product.html">Apparel</a>
+                        <a href="product.html">Accessories</a>
+                        <a href="product.html">Bags</a>
+                    </div>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="login.html"><i class="fa-regular fa-circle-user"></i></a>
+                <a href="cart.html" class="cart-icon-wrapper">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-counter">0</span>
+                </a>
+            </div>
         </div>
-        <div class="answer">
-          <p>Browse our products and click "Shop Now" or "Add to Cart". Proceed to checkout and follow the payment instructions.</p>
+    </header>
+
+    <main>
+        <section class="policy-hero">
+            <div class="policy-hero-content">
+                <h1>Frequently Asked <span class="text-gold">Questions</span></h1>
+                <p>Find answers to common questions about our products and services</p>
+            </div>
+        </section>
+
+        <section class="policy-content section-padding">
+            <div class="container">
+                <div class="policy-container">
+                    <div class="faq-category">
+                        <h2><i class="fas fa-shopping-bag"></i> Orders & Payments</h2>
+                        
+                        <div class="faq-item">
+                            <h3>How do I place an order?</h3>
+                            <p>Browse our products, select your desired items, choose size and quantity, then click "Add to Cart." Proceed to checkout, fill in your shipping information, and complete payment.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>What payment methods do you accept?</h3>
+                            <p>We accept credit/debit cards (Visa, Mastercard, American Express), PayPal, GCash, PayMaya, and bank transfers. All transactions are secured with SSL encryption.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>Can I cancel or modify my order?</h3>
+                            <p>Orders can be cancelled or modified within 2 hours of placement. Contact our customer service immediately at support@aerokicksph.com or call +63 (555) 123-4567.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-category">
+                        <h2><i class="fas fa-truck"></i> Shipping & Delivery</h2>
+                        
+                        <div class="faq-item">
+                            <h3>How long does shipping take?</h3>
+                            <p>Metro Manila: 2-3 business days. Provincial areas: 5-7 business days. Remote areas: 7-10 business days. Express shipping available for faster delivery.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>Do you ship internationally?</h3>
+                            <p>Currently, we only ship within the Philippines. International shipping is coming soon. Sign up for our newsletter to get notified when it becomes available.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>How can I track my order?</h3>
+                            <p>Once shipped, you'll receive a tracking number via email. Use this number on our website or the courier's tracking page to monitor your delivery status.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-category">
+                        <h2><i class="fas fa-undo-alt"></i> Returns & Exchanges</h2>
+                        
+                        <div class="faq-item">
+                            <h3>What is your return policy?</h3>
+                            <p>We accept returns within 30 days of delivery for unworn, unwashed items with original tags attached. Items must be in original packaging with receipt or order confirmation.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>How do I initiate a return or exchange?</h3>
+                            <p>Contact us at support@aerokicksph.com with your order number and reason for return. We'll provide a return authorization number and instructions within 24 hours.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>Who pays for return shipping?</h3>
+                            <p>For defective or incorrect items, we cover return shipping. For change of mind returns, customers are responsible for return shipping costs.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-category">
+                        <h2><i class="fas fa-shoe-prints"></i> Products & Sizing</h2>
+                        
+                        <div class="faq-item">
+                            <h3>How do I find my correct size?</h3>
+                            <p>Visit our <a href="sizing.html">Size Guide</a> page for detailed measurements. Measure your foot length and refer to our conversion chart. For assistance, contact our customer service.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>Are your products authentic?</h3>
+                            <p>Yes, all AeroKicks PH products are 100% authentic and manufactured to our exact specifications. We stand behind the quality of every item we sell.</p>
+                        </div>
+
+                        <div class="faq-item">
+                            <h3>How do I care for my AeroKicks products?</h3>
+                            <p>Clean with a soft brush and mild soap. Air dry away from direct heat. Avoid machine washing. Store in a cool, dry place. Detailed care instructions included with each product.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="policy-cta">
+                    <h3>Still have questions?</h3>
+                    <p>Our customer service team is here to help</p>
+                    <a href="contactus.html" class="btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>AeroKicks PH</h4>
+                    <p>Born Local. Made for Legends.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="tempindex.html">Home</a></li>
+                        <li><a href="product.html">Shop</a></li>
+                        <li><a href="sizing.html">Size Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Support</h4>
+                    <ul>
+                        <li><a href="FAQ.html">FAQs</a></li>
+                        <li><a href="Shipping.html">Shipping Policy</a></li>
+                        <li><a href="returns.html">Returns & Exchanges</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="Terms.html">Terms & Conditions</a></li>
+                        <li><a href="Privacy.html">Privacy Policy</a></li>
+                        <li><a href="Accessibility.html">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>Email: <a href="mailto:support@aerokicksph.com">support@aerokicksph.com</a></p>
+                    <p>Phone: +63 (555) 123-4567</p>
+                    <p>Mon - Fri: 9AM - 5PM PST</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 AeroKicks PH. All Rights Reserved. | Designed by Condicion, Frasco, Galang, Nemiaga, Santos.
+            </div>
         </div>
-      </div>
+    </footer>
 
-      <div class="faq">
-        <div class="question">
-          <h4>2. What payment methods do you accept?</h4>
-          <i class="fa-solid fa-chevron-down"></i>
-        </div>
-        <div class="answer">
-          <p>We accept major credit cards, GCash, PayMaya, and bank transfers. Payment instructions are provided at checkout.</p>
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">
-          <h4>3. How long does delivery take?</h4>
-          <i class="fa-solid fa-chevron-down"></i>
-        </div>
-        <div class="answer">
-          <p>Delivery usually takes 3-5 business days for Metro Manila and 5-10 business days for provincial areas.</p>
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">
-          <h4>4. Can I return or exchange a product?</h4>
-          <i class="fa-solid fa-chevron-down"></i>
-        </div>
-        <div class="answer">
-          <p>Yes. Products must be unused, in original packaging, and returned within 7 days of delivery. See our Returns & Exchanges policy for details.</p>
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">
-          <h4>5. How do I track my order?</h4>
-          <i class="fa-solid fa-chevron-down"></i>
-        </div>
-        <div class="answer">
-          <p>After your order is shipped, you will receive a tracking number via email or SMS. Use it on the courier’s website to track your package.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-<!--------------------------- Footer ------------------------>
-<div class="footer">
-  <div class="small-container">
-    <div class="footer-grid">
-
-      <!-- Logo and Brand Info -->
-      <div class="footer-col logo-col">
-        <a href="#"><img src="Images/LOGO+NAME.png" alt="Aerokicks PH Logo" class="footer-logo" /></a>
-        <p>Premium Filipino sportswear engineered for champions.</p>
-        <ul>
-          <li><a href="mailto:info@aerokicksph.com">info@aerokicksph.com</a></li>
-          <li><a href="tel:+639XXXXXXXXX">+63 9904285146</a></li>
-          <li>Our Store / Address:</li>
-          <li><a href="https://maps.app.goo.gl/noQskWofd6mfiit98">Aerokicks PH – Gateway Cubao<br>
-Unit 210, Gateway Mall
-Araneta Center, Cubao, Quezon City
-Metro Manila, 1109, Philippines</a></li>
-        </ul>
-      </div>
-
-      <!-- Customer Support -->
-      <div class="footer-col">
-        <h3>Support</h3>
-        <ul>
-          <li><a href="FAQ.html">FAQ / Help Center</a></li>
-          <li><a href="Shipping.html">Shipping & Delivery</a></li>
-          <li><a href="returns.html">Returns & Exchanges</a></li>
-        </ul>
-      </div>
-
-      <!-- Policies & Legal -->
-      <div class="footer-col">
-        <h3>Policies</h3>
-        <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Accessibility Statement</a></li>
-        </ul>
-      </div>
-
-      <!-- Shopping & Account Links -->
-      <div class="footer-col">
-        <h3>Account</h3>
-        <ul>
-          <li><a href="#">My Account / Login</a></li>
-          <li><a href="#">Cart</a></li>
-        </ul>
-      </div>
-
-      <!-- Social Media Links -->
-      <div class="footer-col social-col">
-        <h3>Follow Us</h3>
-        <ul class="social-links">
-          <li><a href="https://www.facebook.com/joshua.frasco.980"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-          <li><a href="https://www.facebook.com/joshua.frasco.980"><i class="fab fa-instagram"></i> Instagram</a></li>
-          <li><a href="https://www.facebook.com/joshua.frasco.980"><i class="fab fa-tiktok"></i> TikTok</a></li>
-          <li><a href="https://www.facebook.com/joshua.frasco.980"><i class="fab fa-youtube"></i> YouTube</a></li>
-          <li><a href="https://www.facebook.com/joshua.frasco.980"><i class="fab fa-pinterest"></i> Pinterest</a></li>
-        </ul>
-      </div>
-
-    </div>
-
-    <hr />
-    <p class="copyright">© 2025 AEROKicks PH. All Rights Reserved.</p>
-  </div>
-</div>
-
-
-
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
